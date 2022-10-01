@@ -65,6 +65,8 @@ const Article = () => {
   return (
 
     <div className={styles.contain}>
+
+      Sort By :-    
       <select  onChange={(e) => setDate(e.target.value)} onClick={handleSort}>
         <option>None</option>
         <option value="desc">Latest to Old</option>
